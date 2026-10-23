@@ -16,11 +16,15 @@ These early Windows builds are unsigned. Follow your organization's software pol
 
 ## Mac
 
-There is no Cadence Mac installer available yet. A separate, tested and signed Mac release is needed. The Windows installer does not run directly on macOS.
+Download the **Apple Silicon Mac pilot** DMG from [Releases](https://github.com/Slamhouse/cadence-downloads/releases). Requires an M-series Mac and macOS 14+. Drag Cadence into Applications, open it, grant Microphone and Accessibility, then hold **Control+Option**, speak and release. You can keep it in your Dock or create a desktop alias.
+
+This test release is ad-hoc signed and is **not Apple notarized**. macOS may require approval for Cadence in Privacy & Security after the first launch attempt. Do not disable system security globally. The release includes a Mac quickstart and SHA256SUMS.txt. Test on your own Mac before wider rollout; physical microphone/shortcut/paste tests remain distinct from CI checks. Intel Macs are not included. Use 16 GB unified memory as a pilot starting point; try speech-only first on 8 GB.
 
 ## Local data
 
 Installed Windows version 1.0.1 stores data in `%USERPROFILE%\.cadence`, consistently across launch routes. Upgrade recovery snapshots are retained in its `recovery` folder. Portable builds intentionally use their own adjacent `Data` folder. Back up the entire data folder to preserve your vocabulary, history and recordings.
+
+Mac data is stored separately from the app at `~/Library/Application Support/com.slamhouse.cadence`. Replacing Cadence.app should preserve it. Back up that folder before upgrading a test build.
 
 Speech recognition and built-in local polish run on the user's computer. Advanced cloud polish providers are optional and send text to the selected provider. Each user has separate data. Automatic learning from corrections in other apps is not currently implemented.
 
