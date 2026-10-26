@@ -4,6 +4,8 @@ Local desktop dictation without a transcription subscription. This repository di
 
 **[Download Cadence and get started](https://cadence-desktop.amazing-free-9532.chatgpt.site)** — no GitHub or app account required.
 
+Version **1.2.0** adds lifetime words spoken and speaking WPM for the last 30 days. Counts use original spoken transcripts; WPM uses recording time rather than processing speed. Available history is backfilled, with estimated timings from older recordings. Lifetime totals survive history cleanup; earlier deleted history cannot be reconstructed.
+
 ## Windows x64
 
 1. Download the installer from [Releases](https://github.com/Slamhouse/cadence-downloads/releases).
