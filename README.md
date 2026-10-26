@@ -10,6 +10,8 @@ Local desktop dictation without a transcription subscription. This repository di
 2. Install and open Cadence. Download a speech model once; Parakeet Unified English is the recommended English starting point (about 731 MB).
 3. Click into a text field, hold **Ctrl+Alt**, speak and release. **Escape** cancels.
 
+Use **1.1.1 or newer** for the Windows launch fix. Installed Cadence retains one stable user profile and its own desktop launch identity; an older portable copy cannot intercept the installed shortcut. Upgrading updates existing desktop/Start Menu shortcuts. The release is checked with competing copies, repeated launches, and a forced-close/reopen test that preserves synthetic history, vocabulary and a downloaded speech model.
+
 Optional local polish is a separate 2.74 GB download. Start with speech-only on modest laptops. A recent 16 GB Windows x64 laptop is a recommended pilot target, not a tested minimum requirement. Performance depends on the CPU, GPU and free memory.
 
 These early Windows builds are unsigned. Follow your organization's software policy if Windows or IT blocks installation. Check the release's SHA256SUMS.txt to verify a downloaded file. No GitHub account is required to download these public release assets.
